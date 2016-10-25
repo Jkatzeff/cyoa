@@ -1,0 +1,81 @@
+r Dining
+d You're in Saito's dining room, trying to steal information from him.
+d "We can train your subconscious to defend itself from even the most skilled extractor."
+d "How can you do that?"
+d "Because I am the most skilled extractor. I can teach you how to keep your mind fully guarded at all times."
+d "But if you want my help, you are going to have to be completely open with me. I need to know my way around your thoughts better than anyone; I need to completely know your secrets." 
+d Saito gets up and leaves. "Enjoy your evening. I'll consider your proposal."
+d The room starts shaking. You think he knows you're here to steal from him.
+o Go to your room.
+t Your
+
+r Your
+d You go to your room and find Mal, your deceased wife.
+d She starts talking to you, but you know you can't trust her anymore.
+d Knowing the safe with Saito's secrets is in the room below you, you decide to break into his room.
+o Tie a rope to Mal's chair and use it to climb down the building.
+t Death
+o Find another way to break into Saito's room.
+t Entrance
+
+r Entrance
+d Someone is shooting at you.
+o Shoot back.
+t Attacking back
+o Fail at defending yourself.
+t Death
+o Flee.
+t Your
+
+r Attacking back
+d You fight back the attacker, and win
+o Enter Saito's private room
+t Saito's
+
+r Saito's
+d Inside, you find the safe unguarded
+d You move to open the safe, but hear people approaching
+o Steal the envelope
+t Scenario 1
+o Steal the contents of the envelope and hide them
+t Scenario 2
+
+r Scenario 1
+d You turn around to find Mal holding you at gunpoint.
+d You ask Saito, "Has she told you everything?"
+d Saito responds, "That you are trying to steal from me, or that we are dreaming?"
+d "Give me the envelope."
+d You know that if you don't, they will kill you and you'll end up in a limbo because you were drugged to sleep. 
+o Slide the envelope to Saito
+t failure
+o Refuse
+t Death
+
+r failure
+d You have failed the mission, and you have to wait to leave the dream.
+d However, you cannot leave without accomplishing your mission.
+d You must put yourself in a limbo stat so you have a shot at redoing your mission.
+o Kill yourself
+t Death
+
+r Death
+d You die in this dream, and it sends you into a limbo.
+d When your allotted time runs out, you can return to this dream and start over.
+o Return to dream.
+t Dining
+
+r Scenario 2
+d You turn around to find Mal holding you at gunpoint.
+d You ask Saito, "Has she told you everything?"
+d Saito responds, "That you are trying to steal from me, or that we are dreaming?"
+d "Give me the envelope."
+d You know that if you don't, they will kill you and you'll end up in a limbo because you were drugged to sleep. 
+o Slide the envelope to Saito
+t Victory
+o Refuse
+t Death
+
+r Victory
+d You have the information, and now all you have to do is stay safe until you run out of dreamtime!
+d Your mission has been accomplished, you win!
+

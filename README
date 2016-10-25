@@ -1,0 +1,34 @@
+//README
+//List of different files and instructions for CYOA (Choose your own adventure) app
+
+List of files:
+	README:
+		This file, contains list of files and instructions
+	design.pdf:
+		Design document, explains organization and data structures of the project
+	Makefile:
+		Compiles and runs the cyoa app
+	demo.adventure:
+		A usable demo adventure. Can be ran with "make test".
+	cyoa.java:
+		Main class in cyoa app. Makes and runs the game.
+	Room.java:
+		Room object, keeps track of options, descriptions, and tags.
+	List.java:
+		Modified implementation of a Linked List, that Rooms use to hold options.
+	LList.java:
+		Standard Linked List, used for storing various rooms while creating the game.
+	Readfile.java:
+		Loads in the .adventure file and parses it into an array of Strings.
+	Stack.java:
+		Implementation of a Stack for Room objects. Used to store progress of the game.
+	StringStack.java:
+		Implementation of a Stack for Strings. Used to print out the options alphabetically.
+	Helper.java:
+		Dummy class that holds a LList and a Room. Used to return two values in a method.
+
+Instructions:
+	"make test" will run demo.adventure. In order to beat it, enter a,b,a,a,b,a.
+
+	Note that if you are using the undo command, the first time you use it, you will have to use it
+	twice.
